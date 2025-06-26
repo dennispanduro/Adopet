@@ -11,7 +11,7 @@ const navbarHTML = `
       <li><a class="boton-navegacion" href="">ADOPCIONES</a></li>
       <li><a class="boton-navegacion" href="">CONTACTO</a></li>
     </ul>
-    <p><a class="boton-registrar" href="../Adopet/html/regristro.html">REGISTRATE</a></p>
+    <p><a class="boton-registrar" href="../html/regristro.html">REGISTRATE</a></p>
   </div>
 </nav>
 `;
