@@ -1,0 +1,63 @@
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* Contenedor de todas las tarjetas (puedes añadir más desde JS) */
+.cards-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Tarjeta individual */
+.card-productos {
+    background-color: #B7DFBD;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    max-width: 220px;
+}
+
+.card-productos:hover {
+    transform: scale(1.03);
+}
+
+.card-productos img {
+    max-width: 100%;
+    margin: 0;
+}
+
+/* Nombre del producto */
+.nombre-producto {
+    font-family: "Intro Black";
+    margin-top: 20px;
+    font-size: 18px;
+    color: #47764E;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+/* Botón de compra */
+.btn-comprar {
+    font-family: "Montserrat";
+    background-color: #47764E;
+    color: white;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 800;
+    border: none;
+    border-radius: 46px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background-color: #355a3a;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap" rel="stylesheet">
+    <title>Adopet</title>
+    <link rel="stylesheet" href="../CSS/tienda.css">
+</head>
+<body>
+    <!-- Aquí irá el navbar -->
+    <header id="header-nav"></header>
+
+    <!-- Categorías -->
+    <section class="header-tienda">
+        <h1 class="title-tienda">TIENDA</h1>
+        <div class="section-categorias">
+            <h5 onclick="mostrarCategoria('ropa')">Ropa</h5>
+            <h5 onclick="mostrarCategoria('juguetes')">Juguetes</h5>
+            <h5 onclick="mostrarCategoria('comida')">Comida</h5>
+            <h5 onclick="mostrarCategoria('camas')">Camas</h5>
+        </div>
+    </section>
+
+    <!-- Productos -->
+    <section class="products">
+        <div class="productos"></div>
+    </section>
+
+    <!------------ footer -------------->
+    <div id="footer-container"></div>
+
+    
+    <script src="../JS/navbar.js" defer></script>
+    <script src="../DB/data.js" defer></script>
+    <script src="../JS/tienda.js" defer></script>
+    <script src="../js/footer.js" defer></script>
+</body>
+</html>
